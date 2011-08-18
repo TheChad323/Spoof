@@ -36,6 +36,7 @@
                 <version>2.3.1</version>
                 <configuration>
                     <outputDirectory>${basedir}/bin/</outputDirectory>
+                    <finalName>Spoof</finalName>
                 </configuration>
             </plugin>
         </plugins>
