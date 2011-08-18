@@ -11,6 +11,6 @@ commands:
         description: Spoof a message or command for a player.
         usage: /spoof <player> <message>
 permissions:
-    spoof.use
-        description: Gives player access to /spoof command.
-        default: ops
+    spoof.use:
+        description: Allow player to use /spoof
+        default: op
