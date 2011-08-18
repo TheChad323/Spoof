@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.blockface.spoof</groupId>
     <artifactId>Spoof</artifactId>
-    <version>0.2-SNAPSHOT</version>
+    <version>0.2</version>
     <name>Spoof</name>
     <url>http://blockface.org/</url>
     <repositories>
