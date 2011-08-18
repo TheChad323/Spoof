@@ -20,6 +20,11 @@ public class Commands
             Chatty.SendError(sender,"Could not find " + args[0]);
             return true;
         }
+        if(target.hasPermission("spoof.nospoof"))
+        {
+            Chatty.SendError(sender,"This player cannot be spoofed.");
+            return true;
+        }
         String message = "";
         for(int i=1;i<args.length;i++)
         {

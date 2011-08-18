@@ -14,3 +14,6 @@ permissions:
     spoof.use:
         description: Allow player to use /spoof
         default: op
+    spoof.nospoof:
+        description: This player cannot be spoofed.
+        default: op
