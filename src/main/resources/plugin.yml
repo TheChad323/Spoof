@@ -1,0 +1,16 @@
+author: SwearWord
+database: false
+description: Fakes commands and messages for other players.
+main: org.blockface.spoof.Spoof
+name: Spoof
+startup: postworld
+url: http://blockface.org/
+version: ${project.version}
+commands:
+    spoof:
+        description: Spoof a message or command for a player.
+        usage: /spoof <player> <message>
+permissions:
+    spoof.use
+        description: Gives player access to /spoof command.
+        default: ops
