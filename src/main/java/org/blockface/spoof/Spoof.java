@@ -16,7 +16,8 @@ public class Spoof extends JavaPlugin {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args)
     {
-        if(label.equalsIgnoreCase("spoof")) return Commands.Spoof(sender,args);
+        if(label.equalsIgnoreCase("spoof")) return Commands.Spoof(sender,args, false);
+        if(label.equalsIgnoreCase("sudo")) return Commands.Spoof(sender,args,true);
 
         return false;
     }

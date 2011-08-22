@@ -47,6 +47,16 @@
                             <finalName>Spoof</finalName>
                         </configuration>
                     </execution>
+                    <execution>
+                        <id>Repo</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>T:/www/repo/</outputDirectory>
+                            <finalName>Spoof</finalName>
+                        </configuration>
+                    </execution>
                 </executions>
             </plugin>
         </plugins>

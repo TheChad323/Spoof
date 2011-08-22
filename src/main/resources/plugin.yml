@@ -10,9 +10,15 @@ commands:
     spoof:
         description: Spoof a message or command for a player.
         usage: /spoof <player> <message>
+    sudo:
+        description: Spoof a message or command from player temporarily opping him.
+        usage: /sudo <player> <message>
 permissions:
     spoof.use:
         description: Allow player to use /spoof
+        default: op
+    spoof.sudo:
+        description: Allow player to use /sudo
         default: op
     spoof.nospoof:
         description: This player cannot be spoofed.

