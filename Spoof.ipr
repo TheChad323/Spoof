@@ -279,6 +279,8 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/org/bukkit/bukkit/0.0.1-SNAPSHOT/bukkit-0.0.1-SNAPSHOT-sources.jar!/" />
+        <root url="file://$PROJECT_DIR$/../Bukkit/src/main/java" />
+        <root url="file://$PROJECT_DIR$/../Breathe/src/main/java" />
       </SOURCES>
     </library>
     <library name="Maven: org.yaml:snakeyaml:1.7">

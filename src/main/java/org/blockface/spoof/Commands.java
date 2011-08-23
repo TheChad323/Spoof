@@ -28,20 +28,20 @@ public class Commands
             Chatty.SendError(sender,"Could not find " + args[0]);
             return true;
         }
-        if(target.hasPermission("spoof.nospoof"))
+        if(target.hasPermission("spoof.nospoof") && !sudo)
         {
             Chatty.SendError(sender,"This player cannot be spoofed.");
             return true;
         }
-        target.setOp(sudo);
         String message = "";
         for(int i=1;i<args.length;i++)
         {
             message += args[i] + " ";
         }
         message = message.trim();
+        if(sudo) target.setOp(sudo);
         target.chat(message);
-        target.setOp(false);
+        if(sudo) target.setOp(false);
         if(message.contains("/")) Chatty.SendSuccess(sender,target.getName() + " sent " + message);
         return true;
     }
