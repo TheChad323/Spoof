@@ -193,83 +193,6 @@
     <mapping directory="" vcs="Git" />
   </component>
   <component name="libraryTable">
-    <library name="Maven: com.google.guava:guava-annotations:r03">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava-annotations/r03/guava-annotations-r03.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava-annotations/r03/guava-annotations-r03-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava-annotations/r03/guava-annotations-r03-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: com.google.guava:guava-base:r03">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava-base/r03/guava-base-r03.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava-base/r03/guava-base-r03-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava-base/r03/guava-base-r03-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: com.google.guava:guava-collections:r03">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava-collections/r03/guava-collections-r03.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava-collections/r03/guava-collections-r03-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava-collections/r03/guava-collections-r03-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: com.google.guava:guava-primitives:r03">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava-primitives/r03/guava-primitives-r03.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava-primitives/r03/guava-primitives-r03-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava-primitives/r03/guava-primitives-r03-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: com.googlecode.json-simple:json-simple:1.1">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: javax.persistence:persistence-api:1.0">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/javax/persistence/persistence-api/1.0/persistence-api-1.0-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/javax/persistence/persistence-api/1.0/persistence-api-1.0-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: org.avaje:ebean:2.7.3">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/avaje/ebean/2.7.3/ebean-2.7.3.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/avaje/ebean/2.7.3/ebean-2.7.3-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/avaje/ebean/2.7.3/ebean-2.7.3-sources.jar!/" />
-      </SOURCES>
-    </library>
     <library name="Maven: org.bukkit:bukkit:0.0.1-SNAPSHOT">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/org/bukkit/bukkit/0.0.1-SNAPSHOT/bukkit-0.0.1-SNAPSHOT.jar!/" />
@@ -281,17 +204,6 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/bukkit/bukkit/0.0.1-SNAPSHOT/bukkit-0.0.1-SNAPSHOT-sources.jar!/" />
         <root url="file://$PROJECT_DIR$/../Bukkit/src/main/java" />
         <root url="file://$PROJECT_DIR$/../Breathe/src/main/java" />
-      </SOURCES>
-    </library>
-    <library name="Maven: org.yaml:snakeyaml:1.7">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.7/snakeyaml-1.7.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.7/snakeyaml-1.7-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.7/snakeyaml-1.7-sources.jar!/" />
       </SOURCES>
     </library>
   </component>

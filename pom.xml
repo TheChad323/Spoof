@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.blockface.spoof</groupId>
     <artifactId>Spoof</artifactId>
-    <version>0.2</version>
+    <version>SNAPSHOT</version>
     <name>Spoof</name>
     <url>http://blockface.org/</url>
     <repositories>
@@ -21,23 +21,6 @@
                     <source>1.5</source>
                     <target>1.5</target>
                 </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jar-plugin</artifactId>
-                <version>2.3.1</version>
-                <executions>
-                    <execution>
-                        <id>Publish</id>
-                        <goals>
-                            <goal>jar</goal>
-                        </goals>
-                        <configuration>
-                            <outputDirectory>${basedir}/bin/</outputDirectory>
-                            <finalName>Spoof</finalName>
-                        </configuration>
-                    </execution>
-                </executions>
             </plugin>
         </plugins>
         <resources>

@@ -5,7 +5,7 @@ main: org.blockface.spoof.Spoof
 name: Spoof
 startup: postworld
 url: http://blockface.org/
-version: ${project.version}
+version: ${build.number}
 commands:
     spoof:
         description: Spoof a message or command for a player.
